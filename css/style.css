@@ -1,0 +1,71 @@
+.content{
+	width: 100vw;
+	height: 100vh;
+	overflow-y: scroll;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.margin-zero{
+	margin: 0;
+}
+
+.space{
+	width: 100%;
+	height: 100%;
+	border-radius: 25px;
+	color: #fff;
+	position: relative;
+}
+
+.primary{
+	background-color: #1976D2;
+}
+
+.secondary{
+	background-color: #FF5252;
+}
+
+.nametag-header{
+	border-radius: 25px 25px;
+	width: 100%;
+	height: 30%;
+	text-align: center;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.greeting{
+	font-size: 800%;
+	letter-spacing: 2px;
+	line-height: 80%;
+}
+
+.sub-greeting{
+	font-size: 250%;
+}
+
+.name-box{
+	background-color: #fff;
+	width: 100%;
+	height: 60%;
+	color: #000;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*.sticker-fold{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 75px;
+	height: 75px;
+	background-color: #ddd;
+	border-radius: 25px 0 25px 0;
+}*/
