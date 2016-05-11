@@ -18,7 +18,6 @@
       }
     }
     else {
-      console.log('gt 0');
       for(var i = spaces.length-1 ; i >= 0 ; i--) {
         var t = spaces[i].getClientRects()[0].top;
         if(t < -20) break;
