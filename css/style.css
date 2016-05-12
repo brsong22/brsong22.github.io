@@ -1,3 +1,152 @@
+.signature{
+	fill: none;
+	stroke: #000;
+	stroke-width: 20;
+}
+
+.r1{
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash .1s linear forwards;
+}
+
+.r2{
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash .3s linear forwards .1s;
+}
+
+.i1{
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash .1s linear forwards .5s;
+}
+
+.i2{
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash .1s linear forwards .6s;
+}
+
+.i3{
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash .1s linear forwards .65s;
+}
+
+.c1{
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash .3s linear forwards .75s;
+}
+
+.h1{
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash .1s linear forwards 1s;
+}
+
+.h2{
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash .1s linear forwards 1.1s;
+}
+
+.h3{
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash .1s linear forwards 1.2s;
+}
+
+.a1{
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash .1s linear forwards 1.3s;
+}
+
+.a2{
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash .2s linear forwards 1.5s;
+}
+
+.a3{
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash .1s linear forwards 1.7s;
+}
+
+.r3{
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash .1s linear forwards 1.8s;
+}
+
+.r4{
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash .2s linear forwards 2s;
+}
+
+.d1{
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash .1s linear forwards 2.1s;
+}
+
+.d2{
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash .2s linear forwards 2.2s;
+}
+
+.s1{
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash .3s linear forwards 2.4s;
+}
+
+.o1{
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash .2s linear forwards 2.7s;
+}
+
+.n1{
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash .1s linear forwards 3s;
+}
+
+.n2{
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash .2s linear forwards 3.1s;
+}
+
+.g1{
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash .3s linear forwards 3.2s;
+}
+
+.g2{
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash .1s linear forwards 3.5s;
+}
+
+.g3{
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash .1s linear forwards 3.6s;
+}
+@keyframes dash{
+	to {
+		stroke-dashoffset: 0;
+	}
+}
+
 .content{
 	width: 100vw;
 	height: 100vh;
